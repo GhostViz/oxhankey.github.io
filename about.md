@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a techie guy who enjoys automation, gaming, and making. I'm married with two kids, and I work for a major cloud provider.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[oxhankey@gmail.com](mailto:oxhankey@gmail.com)
