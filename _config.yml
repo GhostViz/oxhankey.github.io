@@ -20,7 +20,7 @@ footer-links:
   email: oxhankey@gmail.com
   facebook: Ox-Hankey-2209919922429150
   github: oxhankey
-  twitter: ghostviz
+  twitter: oxhankey
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -28,7 +28,7 @@ footer-links:
 disqus: ox-hankey
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: 
+google_analytics: UA-142633466-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
