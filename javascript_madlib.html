@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Javascript Madlib by Ox Hankey</title>
+  </head>
+  <body>
+
+  <section style="width: 50%; text-align: auto; margin: auto;">
+  <h1>Javascript Madlib by Ox Hankey </h1>
+  <div id="inputs">
+    <div id="error" class="alert alert-danger" role="alert" style="display:none">
+    </div>
+    <div class="form-group">
+      <label for="myAdjective">Adjective</label>
+      <input type="text" class="form-control" id="myAdjective" placeholder="enormous">
+    </div>
+    <div class="form-group">
+      <label for="myVerb">Verb</label>
+      <input type="text" class="form-control" id="myVerb" placeholder="belch">
+    </div>
+    <div class="form-group">
+      <label for="mySingularNoun">Singular Noun</label>
+      <input type="text" class="form-control" id="mySingularNoun" placeholder="Mom">
+    </div>
+    <div class="form-group">
+      <label for="mySecondAdjective">Adjective 2</label>
+      <input type="text" class="form-control" id="mySecondAdjective" placeholder="tiny">
+    </div>
+    <div class="form-group">
+      <label for="mySecondVerb">Verb 2</label>
+      <input type="text" class="form-control" id="mySecondVerb" placeholder="hiccup">
+    </div>
+    <div class="form-group">
+      <label for="myPluralNoun">Plural Noun</label>
+      <input type="text" class="form-control" id="myPluralNoun" placeholder="moms">
+    </div>
+    <button class="btn btn-success" onClick="madLib()">Submit</button>
+  </div>
+  <div id="madlib" class="alert alert-success" role="alert" style="display:none">
+  </div>
+  <button id="reloadButton" class="btn btn-danger" onClick="location.reload(true);" style="display:none">Reload</button>
+  </section>
+    <script>
+    function wordBlanks(myAdjective, mySecondAdjective, mySingularNoun, myPluralNoun, myVerb, mySecondVerb) {
+      var result = "One " + myAdjective + " " + myVerb + " for " + mySingularNoun +". One " + mySecondAdjective + " " + mySecondVerb + " for " + myPluralNoun + ".";
+      return result;
+    }
+
+    function madLib() {
+      if (document.getElementById("myAdjective").value === "" || document.getElementById("mySecondAdjective").value === "" || document.getElementById("myVerb").value === "" || document.getElementById("mySecondVerb").value === "" || document.getElementById("myPluralNoun").value === "" || document.getElementById("mySingularNoun").value === "") {
+        document.getElementById("error").textContent = "Please enter text in all fields.";
+        document.getElementById("error").style.display = "block";
+      } else {
+        document.getElementById("madlib").textContent = wordBlanks(document.getElementById("myAdjective").value, document.getElementById("mySecondAdjective").value, document.getElementById("mySingularNoun").value, document.getElementById("myPluralNoun").value, document.getElementById("myVerb").value, document.getElementById("mySecondVerb").value);
+        document.getElementById("madlib").style.display = "block";
+        document.getElementById("reloadButton").style.display = "block";
+        document.getElementById("inputs").style.display = "none";
+      }
+    }
+</script>
+  </body>
+</html>
