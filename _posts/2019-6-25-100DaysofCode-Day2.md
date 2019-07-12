@@ -9,7 +9,7 @@ Today was Day 2 of #100DaysOfCode, and I learned about arrays and multi-dimensio
 
 I also learned about the queue data structure in which items are kept in order, and I wrote a function taking advantage of push and shift to implement a queue.
 
-```
+```JavaScript
 function nextInLine(arr, item) {
   arr.push(item);
   var next = arr.shift();

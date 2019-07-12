@@ -54,7 +54,7 @@ W3Schools also has a good page for [JavaScript Array References](https://www.w3s
 ## Objects
 
 To demonstrate each of the concepts below I will be using the following object as an example.
-```
+```JavaScript
 let womenInTech = {
   Ada: 1815
   Jean: 1924

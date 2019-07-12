@@ -13,13 +13,13 @@ According to [High Performance JavaScript by Nicholas C. Zakas](https://www.orei
 
 I also learned about a more modern way to get the number of keys in an object using
 
-```
+```JavaScript
 Object.keys(myObj).length
 ```
 
 so much simpler than something like:
 
-```
+```JavaScript
 function numAttrs(obj) {
   var count = 0;
   for(var key in obj) {
