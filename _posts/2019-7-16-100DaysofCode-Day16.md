@@ -7,7 +7,7 @@ permalink: 100DaysofCode/day16
 
 Today is Day 16 of #100DaysofCode. I am continuing the Basic Algorithm Scripting module from [FreeCodeCamp.org](https://freecodecamp.org).
 
-I completed the Factorialize a Number and Find Longest Word Length challenges.
+I completed the Largest Numbers in Array, Confirm Ending, Repeat a String, and Truncate a String challenges.
 
 ### Return Largest Numbers in Arrays
 
