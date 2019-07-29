@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100 Days of Code - Day 22
-category: 100 Days of Code
+category: freeCodeCamp
 permalink: 100DaysofCode/day22
 ---
 
